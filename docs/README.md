@@ -6,3 +6,9 @@ public void test(){
 }
 ```
 
+```js
+function f(){
+    
+}
+```
+
