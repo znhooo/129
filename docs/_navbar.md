@@ -4,3 +4,5 @@
 
 - 狗福
   - [录音](pages/goufu/录音)
+  - [图片](pages/goufu/图片)
+  - [视频](pages/goufu/视频)
