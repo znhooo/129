@@ -1,3 +1,6 @@
-- 好憨小站
-  - [图片](pages/图片)
-  - [视频](pages/视频)
+- 好憨
+  - [图片](pages/haohan/图片)
+  - [视频](pages/haohan/视频)
+
+- 狗福
+  - [录音](pages/goufu/录音)
