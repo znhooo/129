@@ -1,8 +1,10 @@
 - 好憨
   - [图片](pages/haohan/图片)
   - [视频](pages/haohan/视频)
-
 - 狗福
   - [录音](pages/goufu/录音)
   - [图片](pages/goufu/图片)
   - [视频](pages/goufu/视频)
+- 合影
+  - [图片](pages/heying/图片)
+  - [视频](pages/heying/视频)

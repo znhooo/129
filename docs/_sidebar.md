@@ -7,4 +7,7 @@
     - [录音](pages/goufu/录音)
     - [图片](pages/goufu/图片)
     - [视频](pages/goufu/视频)
+  - 合影
+    - [图片](pages/heying/图片)
+    - [视频](pages/heying/视频)
   - 持续更新中......
