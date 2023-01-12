@@ -68,7 +68,7 @@
       repo: '129',
       owner: 'znhooo',
       admin: ['znhooo'],
-      id: decodeURI(location.pathname),
+      id: location.href.substr(location.href - 40,location.href - 1),
       // facebook-like distraction free mode
     distractionFreeMode: false
   })
