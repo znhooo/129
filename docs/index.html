@@ -62,6 +62,8 @@
 <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
 <script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
 <script>
+  var id = window.location.href;
+  id = id.substring(id.length - 40,id.length);
   var gitalk = new Gitalk({
       clientID: '8a35bd0c293cd53e228c',
       clientSecret: '9c56560a978e42de1bb859a5a800c5eba7da9438',
@@ -69,7 +71,7 @@
       owner: 'znhooo',
       admin: ['znhooo'],
       labels: ['gitment'],
-      id: '129site',
+      id: id,
       // facebook-like distraction free mode
     distractionFreeMode: false
   })
