@@ -8,12 +8,25 @@
   <meta name="description" content="Description">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
+  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.css">
 </head>
 
 <body>
   <div id="app">加载中</div>
   <script>
     window.$docsify = {
+        footer: {
+            copy: '',
+            auth: '',
+            pre: '<hr>',
+            style:'text-align: center;'
+        },
+        pagination: {
+            previousText: '上一篇',
+            nextText: '下一篇',
+            crossChapter: true,
+            crossChapterText: true,
+        },
       name: '129小站',
       repo: 'https://github.com/znhooo/129',
       maxLevel: 5,//最大支持渲染的标题层级
@@ -31,12 +44,7 @@
         noData: '找不到结果',
         // 搜索标题的最大程级, 1 - 6
         depth: 3,
-      },
-      footer:{
-      	copy: '<span id="sitetime"></span>',
-	pre: '<hr/>',
-	style: 'text-align: left;',
-      },
+      }
     }
   </script>
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
@@ -89,7 +97,23 @@
   <script src="//cdn.jsdelivr.net/lib/plugins/zoom-image.js"></script>
   <!-- 字数统计 -->
   <script src="//unpkg.com/docsify-count/dist/countable.js"></script>
-  
+<!-- 上一篇 下一篇 -->
+  <script src="//cdn.jsdelivr.net/npm/docsify-pagination/dist/docsify-pagination.min.js"></script>
+<!-- gitalk -->
+<script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/gitalk.min.js"></script>
+<script src="//cdn.jsdelivr.net/npm/gitalk/dist/gitalk.min.js"></script>
+<script>
+  var gitalk = new Gitalk({
+      clientID: '8a35bd0c293cd53e228c',
+      clientSecret: '9c56560a978e42de1bb859a5a800c5eba7da9438',
+      repo: 'https://github.com/znhooo/129.git',
+      owner: 'znhooo',
+      admin: ['znhooo'],
+      // facebook-like distraction free mode
+    distractionFreeMode: false
+  })
+</script>
+
 </body>
 
 </html>
